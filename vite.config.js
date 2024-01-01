@@ -8,7 +8,8 @@ export default defineConfig({
     port: 3000,
     proxy: {
       "/api": {
-        target: "https://mern-auth-boilerplate-api.onrender.com/",
+        target: "https://mern-auth-boilerplate-api.onrender.com",
+
         changeOrigin: true,
       },
     },
